@@ -6,7 +6,7 @@ function configureListeners() {
         var img1 = document.getElementById(images[i].id)
         img1.addEventListener('mouseover', addOpacity, false)
 
-        var img2 = document.getElementById(image[i].id)
+        var img2 = document.getElementById(images[i].id)
         img2.addEventListener('mouseout', removeOpacity, false)
 
     } 
